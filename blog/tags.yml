@@ -1,0 +1,9 @@
+公告:
+  label: 公告
+  permalink: /announcement
+  description: DocNote 站点公告
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus 相关
