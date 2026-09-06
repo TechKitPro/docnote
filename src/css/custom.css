@@ -48,6 +48,11 @@
   box-sizing: border-box;
 }
 
+/* 隐藏搜索框里的 Ctrl+K 快捷键提示 */
+.navbar__items--right [class*="navbarSearchContainer"] [class*="searchHintContainer"] {
+  display: none !important;
+}
+
 @media (max-width: 768px) {
   .navbar__items--right [class*="navbarSearchContainer"] {
     position: static;
