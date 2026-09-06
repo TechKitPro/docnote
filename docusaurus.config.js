@@ -110,12 +110,12 @@ const config = {
             title: '文档',
             items: [
               {
-                label: '项目简介',
-                to: '/docs/intro',
-              },
-              {
                 label: '快速开始',
                 to: '/docs/guides/quickstart',
+              },
+              {
+                label: '编写文档',
+                to: '/docs/guides/writing-docs',
               },
             ],
           },

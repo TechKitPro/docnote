@@ -74,4 +74,3 @@ npm run deploy
 ## 下一步
 
 - 了解 [如何编写文档](./writing-docs)
-- 阅读 [项目简介](../intro)
