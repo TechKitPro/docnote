@@ -1,43 +1,8 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
-import Heading from '@theme/Heading';
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/guides/quickstart">
-            快速开始 🚀
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+import { useEffect } from 'react';
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <Layout
-      title={`欢迎来到 ${siteConfig.title}`}
-      description="DocNote：让知识沉淀，让文档发光 —— 基于 Docusaurus 的轻量级知识库与文档站点。">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
-  );
+  useEffect(() => {
+    window.location.replace('/docs/guides/quickstart');
+  }, []);
+  return null;
 }
