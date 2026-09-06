@@ -96,11 +96,6 @@ const config = {
             label: '文档',
           },
           {to: '/blog', label: '博客', position: 'left'},
-          {
-            href: 'https://github.com/TechKitPro/docnote',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
