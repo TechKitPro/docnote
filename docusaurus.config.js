@@ -98,10 +98,6 @@ const config = {
           {to: '/blog', label: '博客', position: 'left'},
         ],
       },
-      footer: {
-        style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} TechKitPro. Built with Docusaurus.`,
-      },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
