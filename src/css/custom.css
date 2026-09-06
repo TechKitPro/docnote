@@ -28,3 +28,24 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* 导航栏搜索框居中 */
+.navbar__inner {
+  position: relative;
+}
+
+.navbar__items--right [class*="navbarSearchContainer"] {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 280px;
+  max-width: 40vw;
+}
+
+@media (max-width: 768px) {
+  .navbar__items--right [class*="navbarSearchContainer"] {
+    position: static;
+    transform: none;
+    width: auto;
+  }
+}
