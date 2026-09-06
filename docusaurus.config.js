@@ -105,51 +105,6 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: '文档',
-            items: [
-              {
-                label: '快速开始',
-                to: '/docs/guides/quickstart',
-              },
-              {
-                label: '编写文档',
-                to: '/docs/guides/writing-docs',
-              },
-            ],
-          },
-          {
-            title: '社区',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: '更多',
-            items: [
-              {
-                label: '博客',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/TechKitPro/docnote',
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} TechKitPro. Built with Docusaurus.`,
       },
       prism: {
